@@ -1,0 +1,39 @@
+/*
+Custom CSS
+*/
+
+#modal-alert {
+  z-index: 10000000 !important;
+}
+
+@media (min-width: 992px){
+  #topnav .navigation-menu > li > a {
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+
+  #topnav .navigation-menu > li > a {
+      padding-left: 8px;
+      padding-right: 8px;
+  }
+}
+
+.form-group {
+    margin-bottom: 5px !important;
+}
+
+.form-control {
+    height: 35px !important;
+}
+
+.page-title-box {
+    padding: 5px 0 !important;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 2px 2px !important;
+}
+
+.wrapper {
+    padding-top: 120px !important;
+}
